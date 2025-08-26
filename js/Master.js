@@ -1,4 +1,13 @@
 $(document).ready(function () {
+
+  document.querySelector(".button-scroll")
+  .addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+
   $("a").each(function () {
     var link = $(this);
     var urlLink = $(this).attr("href");
