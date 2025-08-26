@@ -400,6 +400,10 @@
         grid-template-columns: repeat(2, 1fr);
       }
 
+      @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+      }
+
       .item {
         display: flex;
         flex-direction: column;
@@ -445,6 +449,10 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+
+    @media (max-width: 1199px) {
+      height: 250px;
+    }
   }
 }
 
