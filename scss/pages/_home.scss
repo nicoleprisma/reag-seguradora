@@ -41,6 +41,7 @@
         @media (max-width: 1200px) {
           .show-on-hover {
             border-radius: 16px 16px 0 0;
+            right: 0 !important;
           }
         }
 
@@ -56,6 +57,7 @@
         @media (max-width: 1200px) {
           .show-on-hover {
             border-radius: 0 0 16px 16px;
+            left: 0 !important;
           }
         }
 

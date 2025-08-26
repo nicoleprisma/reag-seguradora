@@ -499,6 +499,7 @@ body {
 
     li {
       margin: 0px;
+      position: relative;
 
       &::after {
         content: "" !important;
