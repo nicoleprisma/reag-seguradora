@@ -132,7 +132,7 @@
           margin-right: 16px;
           width: 10px;
           height: 10px;
-          background-image: url("/images/icons/icon-breadcrumb.svg");
+          background-image: url("../images/icons/icon-breadcrumb.svg");
           background-repeat: no-repeat;
         }
       }
@@ -257,7 +257,7 @@
 
   &:before {
     content: "";
-    background-image: url("/images/icons/icon-mensagem.png");
+    background-image: url("../images/icons/icon-mensagem.png");
     display: block;
     position: absolute;
     width: 66px;
@@ -268,7 +268,7 @@
 
   &:after {
     content: "";
-    background-image: url("/images/icons/icon-mensagem.png");
+    background-image: url("../images/icons/icon-mensagem.png");
     display: block;
     position: absolute;
     width: 66px;
@@ -280,7 +280,7 @@
 }
 
 .section-residencial {
-  background-image: url("/images/header-seguro-residencial.jpg");
+  background-image: url("../images/header-seguro-residencial.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -528,7 +528,7 @@
 }
 
 .section-numbers {
-  background-image: url("/images/bg-para-sua-empresa.jpg");
+  background-image: url("../images/bg-para-sua-empresa.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
