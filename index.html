@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REAG Seguradora</title>
+    <meta name="description" content="" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="shortcut icon" href="images/icons/favicon-152px.png" />
+
+    <link rel="apple-touch-icon" href="images/icons/favicon-120px.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="images/icons/favicon-152px.png" sizes="152x152" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="REAG Seguradora" />
+
+    <meta property="og:description" content="" />
+
+    <meta property="og:image" content="/images/thumb_projeto.jpg" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link preload="" rel="stylesheet" href="vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/basic-table.min.css" />
+    <link rel="stylesheet" href="vendor/slick.min.css" />
+    <link rel="stylesheet" href="vendor/slick-theme.min.css" />
+    <link rel="stylesheet" href="vendor/aos.css" />
+    <link rel="stylesheet" href="css/import.dist.min.css" />
+    <script src="vendor/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="acessibillity-bar">
+        <div class="container container-responsivo-full">
+            <div class="content">
+                <div class="left-top-header">
+                    <p>Relações com Investidores</p>
+                    <a href="https://www.riweb.com.br/" target="_blank">
+                        Institucional
+                        <img src="images/icons/icon-external.svg" class="icon-external" alt="Institucional">
+                    </a>
+                </div>
+
+                <div class="right-top-header">
+                    <div class="accessibility-tools">
+
+                        <a href="./Acessibilidade">
+                            <small> Acessibilidade </small>
+                        </a>
+
+                        <button id="contrastToggle" type="button" class="tool" data-bs-toggle="tooltip"
+                            data-bs-trigger="hover" data-bs-placement="bottom" title="Contraste">
+                            <span class="icon-contraste"></span>
+                        </button>
+
+                        <button id="increaseFont" type="button" class="tool" data-bs-toggle="tooltip"
+                            data-bs-trigger="hover" data-bs-placement="bottom" title="Aumentar o tamanho da fonte">
+                            <span class="icon-aumentar-fonte" accesskey="4"></span>
+                        </button>
+
+                        <button id="decreaseFont" type="button" class="tool" data-bs-toggle="tooltip"
+                            data-bs-trigger="hover" data-bs-placement="bottom" title="Diminuir o tamanho da fonte">
+                            <span class="icon-diminuir-fonte" accesskey="5"></span>
+                        </button>
+                    </div>
+
+                    <div class="idioma-itens">
+                        <a id="hlkCulturaPtBr" accesskey="7" class="idioma-on" href="">
+                            PT
+                        </a>
+                        <a id="hlkCulturaEnUS" accesskey="8" href="">
+                            EN
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="searchbox">
+        <div class="container container-responsivo-full">
+            <div class="row">
+                <div class="offset-xl-0 col-xl-12">
+                    <div class="input-group">
+                        <input name="ctl00$ctl63" type="text" class="form-control inputBusca"
+                            placeholder="Digite aqui a sua busca" />
+
+                        <div class="input-group-text">
+                            <button type="button" class="close-searchbox" aria-label="Fechar Modal de Pesquiasr">
+                                <span class="icon-exibir"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="search-help">
+                        <small> Aperte Enter para pesquisar </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerFixoMenu new-menu">
+        <header class="header">
+            <div class="container container-responsivo-full">
+                <nav class="navbar navbar-expand-lg navbar-new-menu">
+                    <div class="logo-enterprise">
+                        <a href="/">
+                            <img src="images/logo-reag.svg" alt="REAG Seguradora" />
+                        </a>
+
+                        <!-- btn open menu mobile  -->
+                        <button class="navbar-toggler btn-open-menu" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <img class="toggle-img-com" src="images/menu-svgrepo-com.svg" alt="" />
+                        </button>
+                    </div>
+
+                    <div class="canais-menu">
+                        <div class="container-before-mobile">
+                            <div class="container container-responsivo-full">
+                                <div class="content-menu-mobile">
+                                    <a href="#">
+                                        <img class="logo-enterprise-mobile" src="images/logo-reag.svg"
+                                            alt="REAG Seguradora" />
+                                    </a>
+
+                                    <button class="navbar-toggler btn-open-menu" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                        <img class="toggle-img-com" src="images/menu-svgrepo-com.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse mobile-nav-size container" id="navbarNav">
+
+                                <div class="searchbox-mobile">
+
+                                    <div class="input-group">
+                                        <input name="ctl00$ctl26" type="text" class="form-control inputBuscaMobile"
+                                            placeholder="Pesquisar">
+                                    </div>
+
+                                    <div class="search-help">
+                                        <small>
+                                            Aperte Enter para pesquisar
+                                        </small>
+                                    </div>
+                                </div>
+
+                                <div class="institucional-and-language">
+                                    <ul>
+                                        <li id="btnPt" class="active">
+                                            <a href="javascript:__doPostBack('ctl00$ctl00$hlkCulturaPtBr','')">
+                                                Português </a>
+                                        </li>
+                                        <li id="btnEn">
+                                            <a href="javascript:__doPostBack('ctl00$ctl00$hlkCulturaEnUS','')">
+                                                English
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sobre Nós
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li><a class="dropdown-item" href="missao.html">Missão, Visão e Valores</a></li>
+                                            <li><a class="dropdown-item" href="mensagem-ceo.html">Mensagem do CEO</a></li>
+                                            <li><a class="dropdown-item" href="acoes-esg.html">Ações ESG</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Para Você
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li>
+                                                <a class="dropdown-item" href="seguro-residencial.html">Seguro
+                                                    Residencial</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Para sua Empresa
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li>
+                                                <a class="dropdown-item" href="garantia.html">Garantia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="fianca-locaticia.html">Fiança Locatícia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="empresarial.html">Empresarial</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="risco.html">Risco de Engenharia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="maquinas.html">Máquinas e Equipamentos</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="condominio.html">Condomínio</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="directors-officers.html">D&O - Directores and Officers</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="responsabilidade.html">Responsabilidade Civil
+                                                    Geral</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="errors-omissions.html">E&O - Errors and
+                                                    Omissions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link" href="sinistros.html">
+                                            Sinistros
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Ajuda
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li>
+                                                <a class="dropdown-item" href="fale-conosco.html">Fale Conosco</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="susep.html">SUSEP</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="politicas.html">Políticas e Códigos</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="canal-denuncias.html">Canal de Denúnciaso</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="sac.html">SAC</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="ouvidoria.html">Ouvidoria</a>
+                                            </li>
+
+ <li>
+                                                <a class="dropdown-item" href="condicoes.html">Condições Gerais</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="menu-right-side">
+                        <div class="search">
+                            <a class="open-searchbox" data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                data-bs-placement="bottom" accesskey="2" data-bs-original-title="Pesquisar">
+                                <img src="images/icon-busca.svg" alt="pesquisar" />
+                            </a>
+                        </div>
+
+                        <a href="seja-corretor.html" class="primary-button primary-button-header">Seja nosso corretor</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="banner-home">
+        <video autoplay="" loop="" muted="" src="video/video-banner.mp4"></video>
+        <div class="container container-responsivo-full">
+            <div class="banner-content">
+                <h1 class="display">Confiança e proteção em cada apólice</h1>
+                <p>Aqui todo contrato é construído com excelência técnica, transparência e o compromisso de proteger o
+                    que é importante
+                    para você.</p>
+                <a href="#Produtos" class="primary-button">Conhecer produtos REAG</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="Produtos" class="section-produtos" style="background-image: url(images/bg-produtos.jpg);">
+        <div class="container container-responsivo-full">
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-2">
+                    <span class="label label-white">Produtos</span>
+                </div>
+
+                <div class="col-lg-7">
+                    <h2 class="h1">REAG Seguradora</h2>
+                    <h3>Somos uma empresa especializada em oferecer soluções de seguros sob medida para nossos clientes.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="box-produtos" data-aos="fade-up" data-aos-delay="100">
+                <div class="item">
+                    <img src="images/bg-empresas-home.jpg" alt="Para sua Empresa" class="img-background">
+                    <div class="content">
+                        <p><b>Empresas</b></p>
+
+                        <div class="title-link">
+                            <h4>Para sua Empresa</h4>
+                            <div class="flex-link">
+                                <p>Saiba mais</p>
+                                <img src="images/icons/icon-arrow-right.svg" alt="Saiba mais">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="show-on-hover">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/icons/icon-empresa-garantia.png"
+                                        alt="Garantia"><span>Garantia</span></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="images/icons/icon-empresa-fianca-locaticia.png"
+                                        alt="Fiança Locatícia"><span>Fiança Locatícia</span></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="images/icons/icon-empresa-empresarial.png"
+                                        alt="Empresarial"><span>Empresarial</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/bg-pessoas-home.jpg" alt="Para Você" class="img-background">
+                    <div class="content">
+                        <p><b>Pessoas</b></p>
+
+                        <div class="title-link">
+                            <h4>Para Você</h4>
+
+                            <div class="flex-link">
+                                <p>Saiba mais</p>
+                                <img src="images/icons/icon-arrow-right.svg" alt="Saiba mais">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="show-on-hover">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/icons/icon-empresa-garantia.png"
+                                        alt="Seguro Residencial"><span>Seguro Residencial</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray section-atualizacoes">
+        <div class="container container-responsivo-full">
+            <div class="label-center" data-aos="fade-up">
+                <span class="label label-green">
+                    Atualizações
+                </span>
+            </div>
+
+            <div class="box-noticias" data-aos="fade-up">
+                <div class="item">
+                    <img src="images/news-thumb-01.jpg" alt="Notícias">
+
+                    <div class="content">
+                        <p>REAG lança seguradora e mira R$ 50 milhões em prêmios em um ano</p>
+                        <a class="primary-button" href="noticia-interna.html">Leia mais</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/news-thumb-02.jpg" alt="Notícias">
+
+                    <div class="content">
+                        <p>EXCLUSIVO: REAG Investimentos recebe aprovação prévia da SUSEP para constituir seguradora</p>
+                        <a class="primary-button" href="noticia-interna.html">Leia mais</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/news-thumb-02.jpg" alt="Notícias">
+
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a class="primary-button" href="noticia-interna.html">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-button">
+                <a href="noticias.html" class="ghost-button">Ver todas as notícias</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container container-responsivo-full">
+            <span class="label label-green" data-aos="fade-up">Contatos</span>
+            <h2 class="mt-4" data-aos="fade-up">Entre em contato</h2>
+
+            <div class="contatos">
+                <div class="box-contato" data-aos="fade-up">
+                    <div class="telefone">
+
+                        <div class="item">
+                            <img src="images/icons/icon-sac-mail.svg" alt="SAC">
+                            <p><span>SAC</span><br><a href="mailto:sac@reagseg.com.br">sac@reagseg.com.br</a>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/icons/icon-sac-telefone.svg" alt="Telefone SAC">
+                            <p><span>Telefone SAC</span><br>0800 580 3359
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/icons/icon-ouvidoria-mail.svg" alt="Ouvidoria">
+                            <p><span>Ouvidoria</span><br><a
+                                    href="mailto:ouvidoria@reagseg.com.br">ouvidoria@reagseg.com.br</a>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/icons/icon-ouvidoria-telefone.svg" alt="Telefone Ouvidoria">
+                            <p><span>Telefone Ouvidoria</span><br>0000-0000
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/icons/icon-sinistro-mail.svg" alt="Sinistro">
+                            <p><span>SAC</span><br><a href="mailto:sinistro@reagseg.com.br">sinistro@reagseg.com.br</a>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/icons/icon-sinistro-mail.svg" alt="Encarregado de Dados">
+                            <p><span>Encarregado de Dados</span><br>Bruno Lajarin Garcia<br><a
+                                    href="mailto:dpo@reag.com.br">dpo@reag.com.br</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="enderecos">
+
+                        <div class="links">
+                            <ul role="tablist">
+                                <li class="nav-item">
+                                    <p>Matriz</p>
+                                    <a class="active" id="matriz-tab" data-bs-toggle="tab"
+                                        data-bs-target="#matriz-tab-pane" aria-controls="matriz-tab-pane"
+                                        aria-selected="true">Av. Tancredo Neves, 450,
+                                        Edf.
+                                        Suarez Trade, 30° andar, Caminho das Árvores<br>Salvador - BA,
+                                        41820-020</a>
+                                </li>
+                                <li class="nav-item">
+                                    <p>Filial</p>
+                                    <a class="" id="filial-tab" data-bs-toggle="tab" data-bs-target="#filial-tab-pane"
+                                        aria-controls="filial-tab-pane" aria-selected="false">Av. Brig. Faria Lima, 2277
+                                        -
+                                        17º andar -
+                                        Jardim Paulistano<br>São Paulo - SP, 01452-000</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="matriz-tab-pane" aria-labelledby="matriz-tab"
+                                tabindex="0">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39162.35729503496!2d-38.461682!3d-12.979107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ba98054c263%3A0xe3aa0899762acf59!2sLOBBY%2C%20RB%20Com%C3%A9rio%20Gr%C3%A3o%20Cafeteria%20-%20Av.%20Tancredo%20Neves%2C%20450%20-%20Caminho%20das%20%C3%81rvores%2C%20Salvador%20-%20BA%2C%2041100-800!5e1!3m2!1sen!2sbr!4v1755540850913!5m2!1sen!2sbr"
+                                    width="200" height="450" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="filial-tab-pane" aria-labelledby="filial-tab" tabindex="0">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4604.288185202795!2d-46.686833!3d-23.5768238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce576d99d89d75%3A0xbbb86ecdea4727ad!2sAv.%20Brig.%20Faria%20Lima%2C%202277%20-%2017%C2%BA%20andar%20-%20Jardim%20Paulistano%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-000!5e1!3m2!1sen!2sbr!4v1755540695770!5m2!1sen!2sbr"
+                                    width="200" height="450" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-mailing" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text">
+                        <h2>Fique por dentro</h2>
+                        <p>Cadastre-se em nossa Newsletter e receba todas as atualizações da companhia.</p>
+                    </div>
+
+                    <div class="form-area">
+                        <input type="text" placeholder="Digite seu e-mail">
+                        <button type="submit" class="primary-button">Quero ficar atualizado</button>
+                    </div>
+                </div>
+
+                <div class="selos" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/selo-abvcap.png" alt="ABVCAP">
+                    <img src="images/selo-anbima-ofertas-publicas.png" alt="ANBIMA - Ofertas Públicas">
+                    <img src="images/selo-anbima-gestao-recursos.png" alt="ANBIMA - Gestão de Recursos">
+                    <img src="images/selo-como-investir.png" alt="Como Investir?">
+                    <img src="images/selo-corecon.png" alt="CORECON">
+                    <img src="images/selo-fitch-ratings.png" alt="Fitch Ratings">
+                    <img src="images/selo-lgpd.png" alt="LGPD">
+                    <img src="images/selo-tesouro-verde.png" alt="Tesouro Verde">
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container container-responsivo-full">
+            <div class="links-footer">
+                <div class="links-uteis">
+                    <p><b>Links Úteis</b></p>
+                    <ul>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="">Política de Privacidade</a></li>
+                        <li><a href="">Condições Gerais</a></li>
+                        <li><a href="">Certidões legais</a></li>
+                    </ul>
+
+                    <p><b>Encarregador de Dados</b><br>Bruno Lajarin Garcia<br><a
+                            href="mailto:dpo@reag.com.br">dpo@reag.com.br</a></p>
+
+                    <div class="socials">
+                        <p><b>Redes Sociais</b></p>
+                        <div class="icones">
+                            <a href=""><img src="images/icons/icon-social-instagram.svg" alt="Instagram"></a>
+                            <a href=""><img src="images/icons/icon-social-linkedin.svg" alt="LinkedIn"></a>
+                            <a href=""><img src="images/icons/icon-social-facebook.svg" alt="Facebook"></a>
+                            <a href=""><img src="images/icons/icon-social-twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="item">
+                        <p>Sobre Nós</p>
+                        <ul>
+                            <li><a href="">Missão, Visão e Valores</a></li>
+                            <li><a href="">Mensagem do CEO</a></li>
+                            <li><a href="">Ações ESG</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <p>Para sua Empresa</p>
+                        <ul>
+                            <li><a href="">Garantia</a></li>
+                            <li><a href="">Fiança Locatícia</a></li>
+                            <li><a href="">Empresarial</a></li>
+                            <li><a href="">Risco de Engenharia</a></li>
+                            <li><a href="">Máquinas e Equipamentos</a></li>
+                            <li><a href="">D&O - Directors and Officers</a></li>
+                            <li><a href="">Responsabilidade Civil Geral</a></li>
+                            <li><a href="">E&O - Errors and Omissions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <p>Para Você</p>
+                        <ul>
+                            <li><a href="">Diretoria e Conselhos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <ul>
+                            <li><a href="">Sinistros</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <p>Ajuda</p>
+                        <ul>
+                            <li><a href="">Fale Conosco</a></li>
+                            <li><a href="">Trabalhe Conosco</a></li>
+                            <li><a href="">SUSEP</a></li>
+                            <li><a href="">Políticas e Códigos</a></li>
+                            <li><a href="">Canal de Denúncias</a></li>
+                            <li><a href="">SAC</a></li>
+                            <li><a href="">Ouvidoria</a></li>
+                            <li><a href="">Condições Gerais</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-footer">
+                <p>REAG Seguradora © Todos os direitos reservados 2025</p>
+                <a href="https://riprisma.com"><img src="images/icons/selo-prisma.svg" alt="Prisma"></a>
+                <div class="button-scroll">
+                    <span>
+                        Voltar ao topo
+                    </span>
+                    <img src="images/icons/icon-arrow-top.svg">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="vendor/bootstrap.bundle.min.js"></script>
+    <script defer src="vendor/counterup.js"></script>
+    <script defer src="vendor/menuFixo.js"></script>
+    <script defer src="vendor/aos.js"></script>
+    <script defer src="vendor/basic-table.min.js"></script>
+    <script defer src="vendor/slick.min.js"></script>
+    <script defer src="js/zoomScroll.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/carousel.js"></script>
+    <script defer src="js/Master.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.page-erro{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+    .text-404 {
+        color: var(--text-primary-01-default);
+        text-align: center;
+        font-size: rem(48);
+        font-weight: 800;
+        margin-bottom: 0;
+    }
+
+    .page-not-found{
+        color: var(--text-color);
+        font-weight: 700;
+        font-size: rem(40);
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .nao-encontramos{
+        color: var(--text-grey-scale-04);
+        font-weight: 600;
+        font-size: rem(20);
+        margin-bottom: 12px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    p{
+        color: var(--text-grey-scale-04);
+        text-align: center;
+    }
+
+    .buttons-error{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 40px;
+    }
+
+    @media (max-width: 575px){
+        h1{
+            font-size: rem(48);
+        }
+    }
+
+    @media (max-width: 375px){
+        text-align: center;
+
+        h1{
+            font-size: rem(40);
+        }
+
+        h2{
+            font-size: rem(24);
+        }
+
+        .buttons-error{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,0 +1,194 @@
+[data-theme="dark"] {
+  background-color: #1d1d1d;
+
+  // Font Family
+
+  --font-epilogue: "Epilogue";
+  --font-opensans: "Open Sans";
+  --font-icomoon: "icomoon";
+
+  // Text Colors
+
+  --text-color: #ffffff;
+
+  --text-primary-01-default: #ffffff;
+
+  --text-primary-01-var-1: #ffffff;
+  --text-primary-01-var-2: #ffffff;
+  --text-primary-01-var-3: #ffffff;
+  --text-primary-01-var-4: #ffffff;
+  --text-primary-01-var-5: #ffffff;
+  --text-primary-01-var-6: #ffffff;
+  --text-primary-01-var-7: #ffffff;
+  --text-primary-01-var-8: #ffffff;
+
+  --text-secondary-01-default: #ffffff;
+
+  --text-secondary-01-var-1: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+
+  --text-tertiary-01-default: #ffffff;
+
+  --text-tertiary-01-var-1: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+  --text-tertiary-01-var-2: #ffffff;
+
+  --text-grey-scale-00: #ffffff;
+  --text-grey-scale-01: #ffffff;
+  --text-grey-scale-02: #ffffff;
+  --text-grey-scale-03: #ffffff;
+  --text-grey-scale-04: #ffffff;
+  --text-grey-scale-05: #ffffff;
+  --text-grey-scale-06: #ffffff;
+  --text-grey-scale-07: #ffffff;
+  --text-grey-scale-08: #ffffff;
+  --text-grey-scale-09: #ffffff;
+  --text-grey-scale-10: #ffffff;
+
+  --text-system-disabled: #d9d9d9;
+
+  --text-system-link: #1a0dab;
+  --text-system-focus: #2e82e5;
+  --text-system-link-visited: #1b1466;
+  --text-system-negative: #d23a20;
+  --text-system-alert: #ecb307;
+  --text-system-positive: #1e986f;
+
+  // Solid Colors
+
+  --primary-01-default: #1a1a1a;
+
+  --primary-01-var-1: #1a1a1a;
+  --primary-01-var-2: #1a1a1a;
+  --primary-01-var-3: #1a1a1a;
+  --primary-01-var-4: #1a1a1a;
+  --primary-01-var-5: #1a1a1a;
+  --primary-01-var-6: #1a1a1a;
+  --primary-01-var-7: #1a1a1a;
+  --primary-01-var-8: #1a1a1a;
+
+  --secondary-01-default: #1a1a1a;
+
+  --secondary-01-var-1: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+  --secondary-01-var-2: #1a1a1a;
+
+  --tertiary-01-default: #1a1a1a;
+
+  --tertiary-01-var-1: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+  --tertiary-01-var-2: #1a1a1a;
+
+  --grey-scale-00: #1a1a1a;
+  --grey-scale-01: #1a1a1a;
+  --grey-scale-02: #1a1a1a;
+  --grey-scale-03: #1a1a1a;
+  --grey-scale-04: #1a1a1a;
+  --grey-scale-05: #1a1a1a;
+  --grey-scale-06: #1a1a1a;
+  --grey-scale-07: #1a1a1a;
+  --grey-scale-08: #1a1a1a;
+  --grey-scale-09: #1a1a1a;
+  --grey-scale-10: #1a1a1a;
+
+  --system-disabled: #bfbfbf;
+
+  --system-link: #1a0dab;
+  --system-link-visited: #1b1466;
+  --system-negative: #d23a20;
+  --system-alert: #ecb307;
+  --system-positive: #1e986f;
+
+  //
+
+  .copy-footer {
+    img {
+      &:not(.button-scroll img) {
+        filter: brightness(10) grayscale(1);
+      }
+    }
+  }
+
+  .box-contato {
+    .telefone {
+      .item {
+        img {
+          filter: brightness(10) grayscale(1);
+        }
+      }
+    }
+  }
+
+  .img-breadcrumb {
+    &::after {
+      filter: brightness(10);
+    }
+  }
+
+  .box-servicos-adicionais {
+    .item {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .box-infos-contato {
+    img {
+      filter: brightness(10) grayscale(1);
+    }
+  }
+
+  .list-documentos {
+    li {
+      img {
+        filter: brightness(10);
+      }
+
+      &:hover {
+        img {
+          filter: brightness(10);
+        }
+      }
+    }
+  }
+
+  .section-numbers {
+    filter: grayscale(1);
+  }
+
+  .pagination {
+    li {
+      &.previous, &.next {
+        img {
+          filter: brightness(10);
+        }
+
+        &.inactive {
+          opacity: .5;
+        }
+      }
+    }
+  }
+}

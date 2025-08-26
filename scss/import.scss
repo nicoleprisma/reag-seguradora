@@ -1,0 +1,29 @@
+/* Base */
+
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/custom';
+@import 'base/utils';
+
+/* Components */
+
+@import 'components/header';
+@import 'components/accordion';
+@import 'components/banners';
+@import 'components/boxes';
+@import 'components/menu';
+@import 'components/list';
+@import 'components/footer';
+@import 'components/table';
+@import 'components/carousel';
+@import 'components/calendars';
+@import 'components/form';
+@import 'components/button';
+@import 'components/contraste';
+
+/* Pages */
+
+@import 'pages/error';
+@import 'pages/home';
+@import 'pages/internal';

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REAG Seguradora</title>
+    <meta name="description" content="" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="shortcut icon" href="images/icons/favicon-152px.png" />
+
+    <link rel="apple-touch-icon" href="images/icons/favicon-120px.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="images/icons/favicon-152px.png" sizes="152x152" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="REAG Seguradora" />
+
+    <meta property="og:description" content="" />
+
+    <meta property="og:image" content="/images/thumb_projeto.jpg" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link preload="" rel="stylesheet" href="vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/basic-table.min.css" />
+    <link rel="stylesheet" href="vendor/slick.min.css" />
+    <link rel="stylesheet" href="vendor/slick-theme.min.css" />
+    <link rel="stylesheet" href="vendor/aos.css" />
+    <link rel="stylesheet" href="css/import.dist.min.css" />
+    <script src="vendor/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="acessibillity-bar bar-internas">
+        <div class="container container-responsivo-full">
+            <div class="content">
+                <div class="left-top-header">
+                    <p>Relações com Investidores</p>
+                    <a href="https://www.riweb.com.br/" target="_blank">
+                        Institucional
+                        <img src="images/icons/icon-external.svg" class="icon-external" alt="Institucional">
+                    </a>
+                </div>
+
+                <div class="right-top-header">
+                    <div class="accessibility-tools">
+
+                        <a href="./Acessibilidade">
+                            <small> Acessibilidade </small>
+                        </a>
+
+                        <button id="contrastToggle" type="button" class="tool" data-bs-toggle="tooltip"
+                            data-bs-trigger="hover" data-bs-placement="bottom" title="Contraste">
+                            <span class="icon-contraste"></span>
+                        </button>
+
+                        <button id="increaseFont" type="button" class="tool" data-bs-toggle="tooltip"
+                            data-bs-trigger="hover" data-bs-placement="bottom" title="Aumentar o tamanho da fonte">
+                            <span class="icon-aumentar-fonte" accesskey="4"></span>
+                        </button>
+
+                        <button id="decreaseFont" type="button" class="tool" data-bs-toggle="tooltip"
+                            data-bs-trigger="hover" data-bs-placement="bottom" title="Diminuir o tamanho da fonte">
+                            <span class="icon-diminuir-fonte" accesskey="5"></span>
+                        </button>
+                    </div>
+
+                    <div class="idioma-itens">
+                        <a id="hlkCulturaPtBr" accesskey="7" class="idioma-on" href="">
+                            PT
+                        </a>
+                        <a id="hlkCulturaEnUS" accesskey="8" href="">
+                            EN
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="searchbox">
+        <div class="container container-responsivo-full">
+            <div class="row">
+                <div class="offset-xl-0 col-xl-12">
+                    <div class="input-group">
+                        <input name="ctl00$ctl63" type="text" class="form-control inputBusca"
+                            placeholder="Digite aqui a sua busca" />
+
+                        <div class="input-group-text">
+                            <button type="button" class="close-searchbox" aria-label="Fechar Modal de Pesquiasr">
+                                <span class="icon-exibir"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="search-help">
+                        <small> Aperte Enter para pesquisar </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerFixoMenu new-menu menu-internas">
+        <header class="header">
+            <div class="container container-responsivo-full">
+                <nav class="navbar navbar-expand-lg navbar-new-menu">
+                    <div class="logo-enterprise">
+                        <a href="/">
+                            <img src="images/logo-reag.svg" alt="REAG Seguradora" />
+                        </a>
+
+                        <!-- btn open menu mobile  -->
+                        <button class="navbar-toggler btn-open-menu" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <img class="toggle-img-com" src="images/menu-svgrepo-com.svg" alt="" />
+                        </button>
+                    </div>
+
+                    <div class="canais-menu">
+                        <div class="container-before-mobile">
+                            <div class="container container-responsivo-full">
+                                <div class="content-menu-mobile">
+                                    <a href="#">
+                                        <img class="logo-enterprise-mobile" src="images/logo-reag.svg"
+                                            alt="REAG Seguradora" />
+                                    </a>
+
+                                    <button class="navbar-toggler btn-open-menu" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                        <img class="toggle-img-com" src="images/menu-svgrepo-com.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse mobile-nav-size container" id="navbarNav">
+
+                                <div class="searchbox-mobile">
+
+                                    <div class="input-group">
+                                        <input name="ctl00$ctl26" type="text" class="form-control inputBuscaMobile"
+                                            placeholder="Pesquisar">
+                                    </div>
+
+                                    <div class="search-help">
+                                        <small>
+                                            Aperte Enter para pesquisar
+                                        </small>
+                                    </div>
+                                </div>
+
+                                <div class="institucional-and-language">
+                                    <ul>
+                                        <li id="btnPt" class="active">
+                                            <a href="javascript:__doPostBack('ctl00$ctl00$hlkCulturaPtBr','')">
+                                                Português </a>
+                                        </li>
+                                        <li id="btnEn">
+                                            <a href="javascript:__doPostBack('ctl00$ctl00$hlkCulturaEnUS','')">
+                                                English
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sobre Nós
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li><a class="dropdown-item" href="missao.html">Missão, Visão e Valores</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="mensagem-ceo.html">Mensagem do CEO</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="acoes-esg.html">Ações ESG</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Para Você
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li>
+                                                <a class="dropdown-item" href="seguro-residencial.html">Seguro
+                                                    Residencial</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Para sua Empresa
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li>
+                                                <a class="dropdown-item" href="garantia.html">Garantia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="fianca-locaticia.html">Fiança
+                                                    Locatícia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="empresarial.html">Empresarial</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="risco.html">Risco de Engenharia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="maquinas.html">Máquinas e
+                                                    Equipamentos</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="condominio.html">Condomínio</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="directors-officers.html">D&O - Directores
+                                                    and Officers</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="responsabilidade.html">Responsabilidade
+                                                    Civil
+                                                    Geral</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="errors-omissions.html">E&O - Errors and
+                                                    Omissions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link" href="sinistros.html">
+                                            Sinistros
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item dropdown mobile-accordion-item">
+                                        <a class="nav-link dropdown-toggle mobile-accordion-button" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Ajuda
+                                        </a>
+                                        <ul class="dropdown-menu mobile-accordion-content">
+                                            <li>
+                                                <a class="dropdown-item" href="fale-conosco.html">Fale Conosco</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="trabalhe-conosco.html">Trabalhe
+                                                    Conosco</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="susep.html">SUSEP</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="politicas.html">Políticas e Códigos</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="canal-denuncias.html">Canal de Denúncias</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="sac.html">SAC</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="ouvidoria.html">Ouvidoria</a>
+                                            </li>
+
+ <li>
+                                                <a class="dropdown-item" href="condicoes.html">Condições Gerais</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="menu-right-side">
+                        <div class="search">
+                            <a class="open-searchbox" data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                data-bs-placement="bottom" accesskey="2" data-bs-original-title="Pesquisar">
+                                <img src="images/icon-busca.svg" alt="pesquisar" />
+                            </a>
+                        </div>
+
+                        <a href="seja-corretor.html" class="primary-button primary-button-header">Seja nosso corretor</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <section class="pt-5 pb-0">
+        <div class="container-banner">
+            <h1 class="title-banner-interno">Canal de Denúncias</h1>
+            <ul class="list-history-page">
+                <li class="img-breadcrumb">
+                    <a href="/">Home</a>
+                </li>
+
+                <li class="img-breadcrumb">
+                    <a href="/">Ajuda</a>
+                </li>
+                <li class="img-breadcrumb active">
+                    <a href="/"> <a href="/"> Canal de Denúncias </a>
+                    </a>
+                </li>
+            </ul>
+            <div class="header-interno">
+                <img src="images/header-denuncias.jpg" alt="Canal de Denúncias">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container container-responsivo-full">
+            <div class="box-formulario d-flex justify-content-center">
+                <div class="col-lg-7">
+                    <h2>Denúncia</h2>
+                    <p>Oferecemos um canal seguro e direto para receber relatos de conduta interna inadequada ou
+                        suspeitas de violações de
+                        leis, normas ou regulamentos, incluindo denúncias de corrupção e outras irregularidades
+                        previstas na Lei n° 12.846/2013
+                        (Lei Anticorrupção) por parte da REAG Investimentos, seus colaboradores, seus fornecedores e
+                        seus parceiros comerciais.</p>
+
+                    <p>Este Canal de Denúncias é uma ferramenta essencial para identificar comportamentos impróprios e
+                        contribui
+                        significativamente para a aplicação e o cumprimento das leis.</p>
+
+                    <p>Fique tranquilo: todas as informações enviadas pelo Canal de Denúncias são tratadas de maneira
+                        confidencial, e
+                        garantimos a proteção contra retaliações para os denunciantes que agirem de boa-fé.</p>
+
+                    <p>Oferecemos a opção de realizar denúncias de forma anônima por meio de nosso formulário
+                        eletrônico. Faça a sua denúncia
+                        com uma descrição detalhada nos fatos, e sempre que possível encaminhe documentos, fotos e
+                        outras evidências que possam
+                        contribuir com a análise do time responsável.</p>
+
+                    <p>Este canal pode ser utilizado por todos os colaboradores da REAG Investimentos, clientes,
+                        Governo, fornecedores,
+                        parceiros comerciais e sociedade em geral.</p>
+
+                    <p>O Canal não deverá ser utilizado para registro de reclamações ou sugestões de produtos e serviços
+                        oferecidos ou
+                        prestados pela REAG Investimentos.</p>
+
+                    <div class="form mt-5">
+                        <div class="content">
+                            <label for="Nome">Título *</label>
+                            <input type="text" required name="Título" id="Titulo" placeholder="Digite aqui">
+                        </div>
+
+                        <div class="content">
+                            <label for="Mensagem">Mensagem</label>
+                            <textarea name="Mensagem" id="Mensagem" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+
+                        <div class="content">
+                            <label for="Nome">Nome *</label>
+                            <input type="text" required name="Nome" id="Nome" placeholder="Digite aqui">
+                        </div>
+
+                        <div class="content">
+                            <label for="E-mail">E-mail *</label>
+                            <input type="text" required name="E-mail" id="E-mail" placeholder="email@empresa.com">
+                        </div>
+
+                        <div class="content">
+                            <label for="Arquivo">Anexar arquivo</label>
+                            <input type="file" required name="Arquivo" id="Arquivo"
+                                placeholder="Escolha um arquivo (PDF, Docx...)">
+                        </div>
+                    </div>
+                    <span><small>(*) Campos obrigatórios</small></span>
+
+                    <div class="options-form">
+                        <div class="termos">
+                            <input type="radio" name="Termos">
+                            <label for="Termos">A REAG respeita a sua privacidade e utiliza seus dados pessoais apenas
+                                para fornecer informações solicitadas por você.
+                                Para saber mais, confira nossa Política Privacidade. Ao clicar em "Enviar denúncia"
+                                abaixo, você autoriza que a REAG
+                                armazene e trate os dados pessoais informados acima para contatá-lo e fornecer
+                                informações solicitadas por você.</label>
+                        </div>
+                    </div>
+
+                    <div class="buttons-form">
+                        <button type="reset" class="ghost-button">Limpar</button>
+                        <button type="submit" class="primary-button">Entrar em contato</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container container-responsivo-full">
+            <div class="links-footer">
+                <div class="links-uteis">
+                    <p><b>Links Úteis</b></p>
+                    <ul>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="">Política de Privacidade</a></li>
+                        <li><a href="">Condições Gerais</a></li>
+                        <li><a href="">Certidões legais</a></li>
+                    </ul>
+
+                    <p><b>Encarregador de Dados</b><br>Bruno Lajarin Garcia<br><a
+                            href="mailto:dpo@reag.com.br">dpo@reag.com.br</a></p>
+
+                    <div class="socials">
+                        <p><b>Redes Sociais</b></p>
+                        <div class="icones">
+                            <a href=""><img src="images/icons/icon-social-instagram.svg" alt="Instagram"></a>
+                            <a href=""><img src="images/icons/icon-social-linkedin.svg" alt="LinkedIn"></a>
+                            <a href=""><img src="images/icons/icon-social-facebook.svg" alt="Facebook"></a>
+                            <a href=""><img src="images/icons/icon-social-twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="item">
+                        <p>Sobre Nós</p>
+                        <ul>
+                            <li><a href="">Missão, Visão e Valores</a></li>
+                            <li><a href="">Mensagem do CEO</a></li>
+                            <li><a href="">Ações ESG</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <p>Para sua Empresa</p>
+                        <ul>
+                            <li><a href="">Garantia</a></li>
+                            <li><a href="">Fiança Locatícia</a></li>
+                            <li><a href="">Empresarial</a></li>
+                            <li><a href="">Risco de Engenharia</a></li>
+                            <li><a href="">Máquinas e Equipamentos</a></li>
+                            <li><a href="">D&O - Directors and Officers</a></li>
+                            <li><a href="">Responsabilidade Civil Geral</a></li>
+                            <li><a href="">E&O - Errors and Omissions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <p>Para Você</p>
+                        <ul>
+                            <li><a href="">Diretoria e Conselhos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <ul>
+                            <li><a href="">Sinistros</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <p>Ajuda</p>
+                        <ul>
+                            <li><a href="">Fale Conosco</a></li>
+                            <li><a href="">Trabalhe Conosco</a></li>
+                            <li><a href="">SUSEP</a></li>
+                            <li><a href="">Políticas e Códigos</a></li>
+                            <li><a href="">Canal de Denúncias</a></li>
+                            <li><a href="">SAC</a></li>
+                            <li><a href="">Ouvidoria</a></li>
+                            <li><a href="">Condições Gerais</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-footer">
+                <p>REAG Seguradora © Todos os direitos reservados 2025</p>
+                <a href="https://riprisma.com"><img src="images/icons/selo-prisma.svg" alt="Prisma"></a>
+                <div class="button-scroll">
+                    <span>
+                        Voltar ao topo
+                    </span>
+                    <img src="images/icons/icon-arrow-top.svg">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="vendor/bootstrap.bundle.min.js"></script>
+    <script defer src="vendor/counterup.js"></script>
+    <script defer src="vendor/menuFixo.js"></script>
+    <script defer src="vendor/aos.js"></script>
+    <script defer src="vendor/basic-table.min.js"></script>
+    <script defer src="vendor/slick.min.js"></script>
+    <script defer src="js/zoomScroll.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/carousel.js"></script>
+    <script defer src="js/Master.js"></script>
+</body>
+
+</html>

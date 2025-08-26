@@ -1,0 +1,37 @@
+.box-formulario {
+  .form {
+    .content {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+
+      label {
+        font-size: rem(14);
+        color: var(--text-grey-scale-05);
+        margin-left: 24px;
+      }
+
+      input,
+      textarea {
+        border-radius: 8px;
+        padding: 12px 24px;
+        outline: 0;
+        border: 1px solid var(--text-grey-scale-05);
+      }
+    }
+  }
+
+  .options-form {
+    margin: 16px 0;
+
+    .termos {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+
+      input {
+        margin-top: 6px;
+      }
+    }
+  }
+}
