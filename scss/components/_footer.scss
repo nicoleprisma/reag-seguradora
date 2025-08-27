@@ -11,7 +11,7 @@ footer {
     }
 
     .links-uteis {
-      padding: 32px;
+      padding: 32px 16px;
       border-radius: 8px;
       background-color: var(--tertiary-01-default);
       border: 1px solid var(--text-tertiary-01-default);
@@ -84,7 +84,7 @@ footer {
       gap: 32px;
       background-color: var(--grey-scale-01);
       border: 1px solid var(--text-grey-scale-03);
-      padding: 32px;
+      padding: 32px 16px;
       border-radius: 8px;
 
       @media (max-width: 991px) {

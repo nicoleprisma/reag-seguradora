@@ -85,6 +85,10 @@ img.openImgZoom {
     h1 {
       color: var(--text-grey-scale-00);
       margin-bottom: 8px;
+      
+      @media (min-width: 992px) {
+        width: 740px;
+      }
     }
 
     p {

@@ -492,10 +492,11 @@
   }
 
   .text {
-    h2 {
-      font-weight: 500;
+    h3 {
+      font-weight: 400;
       color: var(--text-grey-scale-00);
       margin-bottom: 8px;
+      padding: 0;
     }
 
     p {
@@ -537,6 +538,10 @@
       white-space: nowrap;
       border-radius: 8px;
       padding: 12px 26px;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
     }
   }
 }

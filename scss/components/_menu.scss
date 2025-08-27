@@ -576,6 +576,7 @@ body {
         transition: all 0.3s ease;
         padding: 24px;
         top: 60px;
+        border: 1px solid var(--text-grey-scale-02);
 
         li {
           position: relative;
@@ -644,6 +645,7 @@ body {
       li {
         a {
           padding: 4px 48px;
+          font-family: var(--font-epilogue);
         }
       }
     }

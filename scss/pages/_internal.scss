@@ -232,6 +232,10 @@
   gap: 32px;
   position: relative;
 
+  @media (max-width: 1359px) {
+    padding: 64px 113px;
+  }
+
   @media (max-width: 1199px) {
     grid-template-columns: 1fr;
     padding: 64px 113px;
@@ -388,10 +392,6 @@
     background-color: var(--grey-scale-01);
     border: 1px solid var(--text-grey-scale-01);
     padding: 32px;
-
-    @media (max-width: 1199px) {
-      order: 2;
-    }
 
     h3 {
       padding: 0;
