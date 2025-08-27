@@ -1,66 +1,65 @@
-.page-erro{
+.page-erro {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+  &:after {
+    content: "";
+    background-image: url(/images/icons/logo-texture.svg);
+    position: absolute;
+    width: 720px;
+    height: 812px;
+    display: block;
+    right: 0;
+    filter: brightness(0) saturate(100%) invert(37%) sepia(12%) saturate(4760%)
+      hue-rotate(114deg) brightness(99%) contrast(88%);
+  }
+
+  @media (max-width: 1199px) {
+    &:after {
+      background-image: none;
+    }
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: rem(64);
+    font-weight: 300;
+
+    @media (max-width: 1200px) {
+        font-size: rem(32);
+      }
+  }
+
+  h3 {
+    padding: 0;
+    margin-bottom: 32px;
+    font-size: rem(32);
+    color: var(--text-primary-01-default);
+    font-weight: 700;
+
+    @media (max-width: 1200px) {
+        font-size: rem(26);
+      }
+  }
+
+  h4 {
+    margin-bottom: 20px;
+    padding: 0;
+    color: var(--text-grey-scale-05);
+    font-weight: 400;
+  }
+
+  .buttons-error {
+    margin-top: 52px;
     display: flex;
-    height: 100vh;
+    gap: 32px;
     align-items: center;
-
-    .text-404 {
-        color: var(--text-primary-01-default);
-        text-align: center;
-        font-size: rem(48);
-        font-weight: 800;
-        margin-bottom: 0;
-    }
-
-    .page-not-found{
-        color: var(--text-color);
-        font-weight: 700;
-        font-size: rem(40);
-        text-align: center;
-        margin-bottom: 32px;
-    }
-
-    .nao-encontramos{
-        color: var(--text-grey-scale-04);
-        font-weight: 600;
-        font-size: rem(20);
-        margin-bottom: 12px;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 16px;
-    }
-
-    p{
-        color: var(--text-grey-scale-04);
-        text-align: center;
-    }
-
-    .buttons-error{
-        display: flex;
-        justify-content: center;
-        gap: 16px;
-        margin-top: 40px;
-    }
-
-    @media (max-width: 575px){
-        h1{
-            font-size: rem(48);
-        }
-    }
-
-    @media (max-width: 375px){
-        text-align: center;
-
-        h1{
-            font-size: rem(40);
-        }
-
-        h2{
-            font-size: rem(24);
-        }
-
-        .buttons-error{
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    }
+  }
 }
