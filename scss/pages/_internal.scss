@@ -124,6 +124,13 @@
       display: flex;
       align-items: center;
 
+      &.active {
+        a {
+          font-weight: 600;
+          color: var(--text-primary-01-default);
+        }
+      }
+
       &:not(:last-of-type) {
         &:after {
           content: "";
